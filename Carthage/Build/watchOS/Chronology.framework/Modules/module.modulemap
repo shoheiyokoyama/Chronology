@@ -1,0 +1,4 @@
+framework module Chronology {
+    header "Chronology-Swift.h"
+    requires objc
+}

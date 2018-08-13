@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"Chronology::ChronologyPackageTests::ProductTarget" /* ChronologyPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_109 /* Build configuration list for PBXAggregateTarget "ChronologyPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_112 /* PBXTargetDependency */,
+			);
+			name = ChronologyPackageTests;
+			productName = ChronologyPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_100 /* SISeconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* SISeconds.swift */; };
+		OBJ_107 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_118 /* ChronologyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* ChronologyTests.swift */; };
+		OBJ_120 /* Chronology.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Chronology::Chronology::Product" /* Chronology.framework */; };
+		OBJ_63 /* Adjustment.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Adjustment.swift */; };
+		OBJ_64 /* AnchoredAdjustments.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* AnchoredAdjustments.swift */; };
+		OBJ_65 /* CalendarValue+AnchoredAdjustments.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* CalendarValue+AnchoredAdjustments.swift */; };
+		OBJ_66 /* FieldAdjustment.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* FieldAdjustment.swift */; };
+		OBJ_67 /* InvalidFieldAdjustments.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* InvalidFieldAdjustments.swift */; };
+		OBJ_68 /* Era.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Era.swift */; };
+		OBJ_69 /* Year.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Year.swift */; };
+		OBJ_70 /* YearMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* YearMonth.swift */; };
+		OBJ_71 /* YearMonthDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* YearMonthDay.swift */; };
+		OBJ_72 /* YearMonthDayHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* YearMonthDayHour.swift */; };
+		OBJ_73 /* YearMonthDayHourMinute.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* YearMonthDayHourMinute.swift */; };
+		OBJ_74 /* YearMonthDayHourMinuteSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* YearMonthDayHourMinuteSecond.swift */; };
+		OBJ_75 /* YearMonthDayHourMinuteSecondNanosecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* YearMonthDayHourMinuteSecondNanosecond.swift */; };
+		OBJ_76 /* Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Assertions.swift */; };
+		OBJ_77 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Calendar.swift */; };
+		OBJ_78 /* CalendarFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* CalendarFields.swift */; };
+		OBJ_79 /* CalendarValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* CalendarValue.swift */; };
+		OBJ_80 /* Clock+CurrentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Clock+CurrentValues.swift */; };
+		OBJ_81 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Clock.swift */; };
+		OBJ_82 /* ClockImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* ClockImplementation.swift */; };
+		OBJ_83 /* DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* DateComponents.swift */; };
+		OBJ_84 /* Epoch.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Epoch.swift */; };
+		OBJ_85 /* FloatingValue-1Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* FloatingValue-1Unit.swift */; };
+		OBJ_86 /* FloatingValue-2Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* FloatingValue-2Units.swift */; };
+		OBJ_87 /* FloatingValue-3Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* FloatingValue-3Units.swift */; };
+		OBJ_88 /* FloatingValue-4Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* FloatingValue-4Units.swift */; };
+		OBJ_89 /* FloatingValue-Others.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* FloatingValue-Others.swift */; };
+		OBJ_90 /* AnchoredFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* AnchoredFormatting.swift */; };
+		OBJ_91 /* FloatingFormatting-1Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* FloatingFormatting-1Unit.swift */; };
+		OBJ_92 /* FloatingFormatting-2Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* FloatingFormatting-2Units.swift */; };
+		OBJ_93 /* FloatingFormatting-3Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* FloatingFormatting-3Units.swift */; };
+		OBJ_94 /* FloatingFormatting-4Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* FloatingFormatting-4Units.swift */; };
+		OBJ_95 /* FloatingFormatting-Others.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* FloatingFormatting-Others.swift */; };
+		OBJ_96 /* Formats.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Formats.swift */; };
+		OBJ_97 /* Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Formatting.swift */; };
+		OBJ_98 /* Instant.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Instant.swift */; };
+		OBJ_99 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Region.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E02BDC912121646E00FAE8E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Chronology::Chronology";
+			remoteInfo = Chronology;
+		};
+		E02BDC922121646F00FAE8E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Chronology::ChronologyTests";
+			remoteInfo = ChronologyTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		"Chronology::Chronology::Product" /* Chronology.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Chronology.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Chronology::ChronologyTests::Product" /* ChronologyTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChronologyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* Adjustment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adjustment.swift; sourceTree = "<group>"; };
+		OBJ_11 /* AnchoredAdjustments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchoredAdjustments.swift; sourceTree = "<group>"; };
+		OBJ_12 /* CalendarValue+AnchoredAdjustments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalendarValue+AnchoredAdjustments.swift"; sourceTree = "<group>"; };
+		OBJ_13 /* FieldAdjustment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldAdjustment.swift; sourceTree = "<group>"; };
+		OBJ_14 /* InvalidFieldAdjustments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidFieldAdjustments.swift; sourceTree = "<group>"; };
+		OBJ_16 /* Era.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Era.swift; sourceTree = "<group>"; };
+		OBJ_17 /* Year.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Year.swift; sourceTree = "<group>"; };
+		OBJ_18 /* YearMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearMonth.swift; sourceTree = "<group>"; };
+		OBJ_19 /* YearMonthDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearMonthDay.swift; sourceTree = "<group>"; };
+		OBJ_20 /* YearMonthDayHour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearMonthDayHour.swift; sourceTree = "<group>"; };
+		OBJ_21 /* YearMonthDayHourMinute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearMonthDayHourMinute.swift; sourceTree = "<group>"; };
+		OBJ_22 /* YearMonthDayHourMinuteSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearMonthDayHourMinuteSecond.swift; sourceTree = "<group>"; };
+		OBJ_23 /* YearMonthDayHourMinuteSecondNanosecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearMonthDayHourMinuteSecondNanosecond.swift; sourceTree = "<group>"; };
+		OBJ_24 /* Assertions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assertions.swift; sourceTree = "<group>"; };
+		OBJ_25 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		OBJ_26 /* CalendarFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarFields.swift; sourceTree = "<group>"; };
+		OBJ_27 /* CalendarValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarValue.swift; sourceTree = "<group>"; };
+		OBJ_29 /* Clock+CurrentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clock+CurrentValues.swift"; sourceTree = "<group>"; };
+		OBJ_30 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		OBJ_31 /* ClockImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockImplementation.swift; sourceTree = "<group>"; };
+		OBJ_32 /* DateComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponents.swift; sourceTree = "<group>"; };
+		OBJ_33 /* Epoch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Epoch.swift; sourceTree = "<group>"; };
+		OBJ_35 /* FloatingValue-1Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingValue-1Unit.swift"; sourceTree = "<group>"; };
+		OBJ_36 /* FloatingValue-2Units.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingValue-2Units.swift"; sourceTree = "<group>"; };
+		OBJ_37 /* FloatingValue-3Units.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingValue-3Units.swift"; sourceTree = "<group>"; };
+		OBJ_38 /* FloatingValue-4Units.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingValue-4Units.swift"; sourceTree = "<group>"; };
+		OBJ_39 /* FloatingValue-Others.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingValue-Others.swift"; sourceTree = "<group>"; };
+		OBJ_41 /* AnchoredFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchoredFormatting.swift; sourceTree = "<group>"; };
+		OBJ_42 /* FloatingFormatting-1Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingFormatting-1Unit.swift"; sourceTree = "<group>"; };
+		OBJ_43 /* FloatingFormatting-2Units.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingFormatting-2Units.swift"; sourceTree = "<group>"; };
+		OBJ_44 /* FloatingFormatting-3Units.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingFormatting-3Units.swift"; sourceTree = "<group>"; };
+		OBJ_45 /* FloatingFormatting-4Units.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingFormatting-4Units.swift"; sourceTree = "<group>"; };
+		OBJ_46 /* FloatingFormatting-Others.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingFormatting-Others.swift"; sourceTree = "<group>"; };
+		OBJ_47 /* Formats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formats.swift; sourceTree = "<group>"; };
+		OBJ_48 /* Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatting.swift; sourceTree = "<group>"; };
+		OBJ_49 /* Instant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instant.swift; sourceTree = "<group>"; };
+		OBJ_50 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		OBJ_51 /* SISeconds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SISeconds.swift; sourceTree = "<group>"; };
+		OBJ_54 /* ChronologyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronologyTests.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_120 /* Chronology.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_15 /* Anchored Values */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* Era.swift */,
+				OBJ_17 /* Year.swift */,
+				OBJ_18 /* YearMonth.swift */,
+				OBJ_19 /* YearMonthDay.swift */,
+				OBJ_20 /* YearMonthDayHour.swift */,
+				OBJ_21 /* YearMonthDayHourMinute.swift */,
+				OBJ_22 /* YearMonthDayHourMinuteSecond.swift */,
+				OBJ_23 /* YearMonthDayHourMinuteSecondNanosecond.swift */,
+			);
+			path = "Anchored Values";
+			sourceTree = "<group>";
+		};
+		OBJ_28 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_29 /* Clock+CurrentValues.swift */,
+				OBJ_30 /* Clock.swift */,
+				OBJ_31 /* ClockImplementation.swift */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		OBJ_34 /* Floating Values */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_35 /* FloatingValue-1Unit.swift */,
+				OBJ_36 /* FloatingValue-2Units.swift */,
+				OBJ_37 /* FloatingValue-3Units.swift */,
+				OBJ_38 /* FloatingValue-4Units.swift */,
+				OBJ_39 /* FloatingValue-Others.swift */,
+			);
+			path = "Floating Values";
+			sourceTree = "<group>";
+		};
+		OBJ_40 /* Formatting */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_41 /* AnchoredFormatting.swift */,
+				OBJ_42 /* FloatingFormatting-1Unit.swift */,
+				OBJ_43 /* FloatingFormatting-2Units.swift */,
+				OBJ_44 /* FloatingFormatting-3Units.swift */,
+				OBJ_45 /* FloatingFormatting-4Units.swift */,
+				OBJ_46 /* FloatingFormatting-Others.swift */,
+				OBJ_47 /* Formats.swift */,
+				OBJ_48 /* Formatting.swift */,
+			);
+			path = Formatting;
+			sourceTree = "<group>";
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_52 /* Tests */,
+				OBJ_55 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_52 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_53 /* ChronologyTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_53 /* ChronologyTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_54 /* ChronologyTests.swift */,
+			);
+			name = ChronologyTests;
+			path = Tests/ChronologyTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Chronology::Chronology::Product" /* Chronology.framework */,
+				"Chronology::ChronologyTests::Product" /* ChronologyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Chronology */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* Chronology */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Adjustment */,
+				OBJ_15 /* Anchored Values */,
+				OBJ_24 /* Assertions.swift */,
+				OBJ_25 /* Calendar.swift */,
+				OBJ_26 /* CalendarFields.swift */,
+				OBJ_27 /* CalendarValue.swift */,
+				OBJ_28 /* Clock */,
+				OBJ_32 /* DateComponents.swift */,
+				OBJ_33 /* Epoch.swift */,
+				OBJ_34 /* Floating Values */,
+				OBJ_40 /* Formatting */,
+				OBJ_49 /* Instant.swift */,
+				OBJ_50 /* Region.swift */,
+				OBJ_51 /* SISeconds.swift */,
+			);
+			name = Chronology;
+			path = Sources/Chronology;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Adjustment */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* Adjustment.swift */,
+				OBJ_11 /* AnchoredAdjustments.swift */,
+				OBJ_12 /* CalendarValue+AnchoredAdjustments.swift */,
+				OBJ_13 /* FieldAdjustment.swift */,
+				OBJ_14 /* InvalidFieldAdjustments.swift */,
+			);
+			path = Adjustment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"Chronology::Chronology" /* Chronology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_59 /* Build configuration list for PBXNativeTarget "Chronology" */;
+			buildPhases = (
+				OBJ_62 /* Sources */,
+				OBJ_101 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chronology;
+			productName = Chronology;
+			productReference = "Chronology::Chronology::Product" /* Chronology.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Chronology::ChronologyTests" /* ChronologyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_114 /* Build configuration list for PBXNativeTarget "ChronologyTests" */;
+			buildPhases = (
+				OBJ_117 /* Sources */,
+				OBJ_119 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_121 /* PBXTargetDependency */,
+			);
+			name = ChronologyTests;
+			productName = ChronologyTests;
+			productReference = "Chronology::ChronologyTests::Product" /* ChronologyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"Chronology::SwiftPMPackageDescription" /* ChronologyPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_103 /* Build configuration list for PBXNativeTarget "ChronologyPackageDescription" */;
+			buildPhases = (
+				OBJ_106 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChronologyPackageDescription;
+			productName = ChronologyPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Chronology" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"Chronology::Chronology" /* Chronology */,
+				"Chronology::SwiftPMPackageDescription" /* ChronologyPackageDescription */,
+				"Chronology::ChronologyPackageTests::ProductTarget" /* ChronologyPackageTests */,
+				"Chronology::ChronologyTests" /* ChronologyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_107 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_118 /* ChronologyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_63 /* Adjustment.swift in Sources */,
+				OBJ_64 /* AnchoredAdjustments.swift in Sources */,
+				OBJ_65 /* CalendarValue+AnchoredAdjustments.swift in Sources */,
+				OBJ_66 /* FieldAdjustment.swift in Sources */,
+				OBJ_67 /* InvalidFieldAdjustments.swift in Sources */,
+				OBJ_68 /* Era.swift in Sources */,
+				OBJ_69 /* Year.swift in Sources */,
+				OBJ_70 /* YearMonth.swift in Sources */,
+				OBJ_71 /* YearMonthDay.swift in Sources */,
+				OBJ_72 /* YearMonthDayHour.swift in Sources */,
+				OBJ_73 /* YearMonthDayHourMinute.swift in Sources */,
+				OBJ_74 /* YearMonthDayHourMinuteSecond.swift in Sources */,
+				OBJ_75 /* YearMonthDayHourMinuteSecondNanosecond.swift in Sources */,
+				OBJ_76 /* Assertions.swift in Sources */,
+				OBJ_77 /* Calendar.swift in Sources */,
+				OBJ_78 /* CalendarFields.swift in Sources */,
+				OBJ_79 /* CalendarValue.swift in Sources */,
+				OBJ_80 /* Clock+CurrentValues.swift in Sources */,
+				OBJ_81 /* Clock.swift in Sources */,
+				OBJ_82 /* ClockImplementation.swift in Sources */,
+				OBJ_83 /* DateComponents.swift in Sources */,
+				OBJ_84 /* Epoch.swift in Sources */,
+				OBJ_85 /* FloatingValue-1Unit.swift in Sources */,
+				OBJ_86 /* FloatingValue-2Units.swift in Sources */,
+				OBJ_87 /* FloatingValue-3Units.swift in Sources */,
+				OBJ_88 /* FloatingValue-4Units.swift in Sources */,
+				OBJ_89 /* FloatingValue-Others.swift in Sources */,
+				OBJ_90 /* AnchoredFormatting.swift in Sources */,
+				OBJ_91 /* FloatingFormatting-1Unit.swift in Sources */,
+				OBJ_92 /* FloatingFormatting-2Units.swift in Sources */,
+				OBJ_93 /* FloatingFormatting-3Units.swift in Sources */,
+				OBJ_94 /* FloatingFormatting-4Units.swift in Sources */,
+				OBJ_95 /* FloatingFormatting-Others.swift in Sources */,
+				OBJ_96 /* Formats.swift in Sources */,
+				OBJ_97 /* Formatting.swift in Sources */,
+				OBJ_98 /* Instant.swift in Sources */,
+				OBJ_99 /* Region.swift in Sources */,
+				OBJ_100 /* SISeconds.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Chronology::ChronologyTests" /* ChronologyTests */;
+			targetProxy = E02BDC922121646F00FAE8E9 /* PBXContainerItemProxy */;
+		};
+		OBJ_121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Chronology::Chronology" /* Chronology */;
+			targetProxy = E02BDC912121646E00FAE8E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Chronology.xcodeproj/ChronologyTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = ChronologyTests;
+			};
+			name = Debug;
+		};
+		OBJ_116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Chronology.xcodeproj/ChronologyTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = ChronologyTests;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Chronology.xcodeproj/Chronology_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Chronology;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Chronology;
+			};
+			name = Debug;
+		};
+		OBJ_61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Chronology.xcodeproj/Chronology_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Chronology;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Chronology;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_103 /* Build configuration list for PBXNativeTarget "ChronologyPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_104 /* Debug */,
+				OBJ_105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_109 /* Build configuration list for PBXAggregateTarget "ChronologyPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_110 /* Debug */,
+				OBJ_111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_114 /* Build configuration list for PBXNativeTarget "ChronologyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_115 /* Debug */,
+				OBJ_116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "Chronology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_59 /* Build configuration list for PBXNativeTarget "Chronology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_60 /* Debug */,
+				OBJ_61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
