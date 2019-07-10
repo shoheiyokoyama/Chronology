@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name = 'Chronology'
-    spec.version  = '1.0.3'
+    spec.version  = '1.0.4'
     spec.author = { 'Dave DeLong' => 'me@davedelong.com' }
     spec.homepage = 'https://github.com/shoheiyokoyama/Chronology'
     spec.summary = 'Building a better date/time library for Swift'
